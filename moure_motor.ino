@@ -19,5 +19,5 @@ void loop()
     delay(40); // Esperamos abans de parar el motor 
     dutyCycle = 0; // Valor entre 0 y 255
     analogWrite(motorPin, dutyCycle); // Enviem senyal PWM al motor
-    delay(60000); // Esperem 1 minuts
+    delay(50000); // Esperem 50 segons
 }
